@@ -46,6 +46,7 @@ python3 grow.py
 ```javascript
 console.log(JSON.parse(sessionStorage.getItem(Object.keys(sessionStorage).find(k => k.startsWith('firebase:authUser:'))))?.stsTokenManager?.refreshToken);
 ```
+4. **result save to token.txt**
 
 
 ## NOTE
